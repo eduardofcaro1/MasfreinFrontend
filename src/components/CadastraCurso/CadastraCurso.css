@@ -1,0 +1,47 @@
+.cadastra-semestre {
+    padding: 20px;
+}
+
+.cursos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cursos-table th, .cursos-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.cursos-table th {
+    background-color: #f2f2f2;
+}
+
+.cursos-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.cursos-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+}
+
+.filtro-container input{
+    width: 100%;
+}
+
+.tdEditarBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+th{
+    text-align: center;
+    align-items: center;
+}

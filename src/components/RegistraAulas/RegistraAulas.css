@@ -1,0 +1,100 @@
+.form-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    text-align: start;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+
+
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.aulas-registradas {
+    margin-top: 20px;
+}
+
+.aulas-registradas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.aulas-registradas li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aulas-registradas button {
+    background-color: #dc3545;
+}
+
+.aulas-registradas button:hover {
+    background-color: #c82333;
+}
+
+.calendar-container {
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.highlight {
+    background: #ffcc00;
+    color: black; 
+    border-radius: 50%;
+}

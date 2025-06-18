@@ -1,0 +1,114 @@
+.perfil-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-info {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    text-align: start;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+}
+
+.submit-button {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.form-group-perfil {
+    width: 100%;
+}
+
+.form-perfil {
+    width: 95%;
+}
+
+.form-group-perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.label-perfil {
+    width: 40%;
+    text-align: start;
+}
+
+
+.submit-button-altera-senha {
+    width: 100%;
+}
+
+.editar-senha-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 9%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.form-perfil button {
+    width: 100%;
+}
+
+.form-perfil {
+    width: 93%;
+}

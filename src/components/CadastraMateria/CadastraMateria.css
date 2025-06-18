@@ -1,0 +1,107 @@
+.form-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: start;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.required {
+    color: red;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.submit-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.materias-disponiveis {
+    margin-top: 20px;
+}
+
+.materias-disponiveis h3 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+.materias-disponiveis table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.materias-disponiveis th,
+.materias-disponiveis td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.materias-disponiveis th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.materias-disponiveis tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.materias-disponiveis tr:hover {
+    background-color: #f1f1f1;
+}
+
+.materias-disponiveis td {
+    font-size: 16px;
+}

@@ -1,0 +1,391 @@
+.cadastra-laboratorio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastra-laboratorio-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.laboratorios-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.laboratorios-table th,
+.laboratorios-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.laboratorios-table th {
+    background-color: #f4f4f4;
+}
+
+.laboratorios-table td {
+    color: #333;
+}
+
+.laboratorios-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.laboratorios-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.error-message {
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cadastra-laboratorio-container .btn-cadastrar {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cadastra-laboratorio-container .btn-cadastrar:hover {
+    background-color: #0056b3;
+}
+
+.cadastra-laboratorio-form {
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastra-laboratorio-form .form-group {
+    margin-bottom: 20px;
+}
+
+.cadastra-laboratorio-form label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.cadastra-laboratorio-form .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.success {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.for-cadastrar-lab {
+    width: 93%;
+}
+
+.adicionar-semestre-btn {
+    width: 100%;
+    text-align: center;
+}
+
+.campoForm input {
+    padding: 10px;
+    width: 100%;
+}
+
+.campoForm #nomeLab {
+    width: 100%;
+}
+
+.inputDuplo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.confirmaBtn {
+    width: 100%;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.modal-content h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+.close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #aaa;
+    background-color: #fff;
+    transition: color 0.3s;
+    width: 5%;
+    padding: 0;
+    margin: 0;
+}
+
+.close:hover {
+    color: pink;
+    background-color: #fff;
+}
+
+.for-cadastrar-lab {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.campoForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.campoForm label {
+    font-weight: bold;
+    color: #444;
+}
+
+.campoForm input {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.inputDuplo {
+    display: flex;
+    gap: 1rem;
+}
+
+.inputDuplo .campoForm {
+    flex: 1;
+}
+
+.aplicativosTitulo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.listaApps select {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.confirmaBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+
+.btn-cadastrar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-cadastrar:hover {
+    background-color: #45a049;
+}
+
+.aplicativosLab {
+    width: 100%;
+}
+
+.aplicativosLabTitulo {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.aplicativosLabTitulo button {
+    width: 10%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon {
+    padding: 0;
+    margin: 0;
+}
+
+.modal-aplicativo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: auto;
+}
+
+.modal-aplicativo-content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-aplicativo-content h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+.close-aplicativo {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #aaa;
+    transition: color 0.3s;
+}
+
+.close-aplicativo:hover {
+    color: #000;
+}
+
+.modal-aplicativo-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 92%;
+}
+
+.modal-aplicativo-form .campoForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.modal-aplicativo-form .campoForm label {
+    font-weight: bold;
+    color: #444;
+}
+
+.modal-aplicativo-form .campoForm input {
+    padding: 0.8rem;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+
+.modal-aplicativo-form .inputDuplo {
+    display: flex;
+    gap: 1rem;
+}
+
+.modal-aplicativo-form .inputDuplo .campoForm {
+    flex: 1;
+}
+
+.modal-aplicativo-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.modal-aplicativo-btn .btn-cadastrar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+
+}
+
+.modal-aplicativo-btn .btn-cadastrar:hover {
+    background-color: #218838;
+}
+
+
+#nomeLab {
+    width: 5px;
+}

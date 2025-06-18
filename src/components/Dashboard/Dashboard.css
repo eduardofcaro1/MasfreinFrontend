@@ -1,0 +1,231 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.dashboard-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.dashboard-content h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-content p {
+  color: #666;
+  margin: 10px 0;
+}
+
+.dashboard-content h3 {
+  color: #007bff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.materia-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.materia-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.materia-button div {
+  margin-bottom: 5px;
+}
+
+.materia-button div:last-child {
+  margin-bottom: 0;
+}
+
+.calendar-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+}
+
+.react-calendar__tile {
+  background-color: #e0f7fa;
+  border-radius: 6px;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #4dd0e1;
+  color: #fff;
+}
+
+.react-calendar__tile--active {
+  background-color: #00838f;
+  color: #fff;
+}
+
+.react-calendar__navigation button {
+  color: #00796b;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #80deea;
+  border-radius: 6px;
+}
+
+.react-calendar__tile--now {
+  background: #b2ebf2;
+  border-radius: 6px;
+}
+
+.selected-date {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #00796b;
+}
+
+.aulas-registradas {
+  margin-top: 20px;
+}
+
+.aulas-registradas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.aulas-registradas li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.aulas-semana-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.aulas-semana-table th,
+.aulas-semana-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.aulas-semana-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.aula-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.aula-item p {
+  margin: 5px 0;
+}
+
+.semestre-atual {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.semestre-atual h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.semestre-atual p {
+  margin: 5px 0;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.95em;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 8px;
+}
+
+.status-aprovada {
+  background-color: #28a745;
+}
+
+.status-pendente {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.aulas-pendentes-alert {
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+  color: #856404;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.badge-pendentes {
+  background: #dc3545;
+  color: #fff;
+  border-radius: 50%;
+  padding: 8px 14px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}

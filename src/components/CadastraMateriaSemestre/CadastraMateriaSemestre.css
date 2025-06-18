@@ -1,0 +1,116 @@
+.container-root {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    padding: 32px 24px;
+    margin: 32px auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+.form-container-materias-semestre {
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: start;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.cadastrar-materia-semestre-btn {
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.materias-semana {
+    margin-top: 24px;
+    padding: 24px 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border: none;
+}
+
+.materias-semana h3 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    color: #222;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.materias-semana .materias-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.materias-semana .materia-card {
+    flex: 1 1 280px;
+    min-width: 260px;
+    max-width: 320px;
+    box-sizing: border-box;
+    padding: 18px 16px;
+    border-radius: 8px;
+    background-color: #f8fafd;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.07);
+    border: 1px solid #e3e8ee;
+    margin-bottom: 0;
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.materias-semana .materia-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.13);
+    border-color: #b3c6e0;
+}
+
+.materias-semana .materia-card h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+    color: #1a237e;
+    font-weight: 600;
+}
+
+.materias-semana .materia-card p {
+    margin: 6px 0;
+    color: #444;
+    font-size: 0.97rem;
+}
+
+.materias-semana .materia-card p strong {
+    font-weight: 600;
+    color: #222;
+}

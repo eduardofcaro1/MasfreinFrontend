@@ -1,0 +1,115 @@
+.matricula-aluno-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 32px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.matricula-aluno-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.form-group {
+    padding: 5px;
+
+}
+
+.labelContainer {
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+
+    width: 100%;
+}
+
+.selectModal {
+    width: 100%;
+}
+
+.form-group .react-select__control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.form-group .react-select__control:hover {
+    border-color: #aaa;
+}
+
+.form-group .react-select__menu {
+    z-index: 10;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.alunos-matriculados-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.alunos-matriculados-table th,
+.alunos-matriculados-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.alunos-matriculados-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.alunos-matriculados-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.alunos-matriculados-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.error-message {
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.success-message {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.matricularBtn {
+    width: 100%;
+}
