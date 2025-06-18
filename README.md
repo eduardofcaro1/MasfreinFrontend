@@ -44,7 +44,7 @@ export const API_BASE_URL = 'http://localhost:8080';
 
 ## 🚀 Como Executar o Projeto
 
-Certifique-se de que o **backend** está rodando e acessível na URL configurada no `.env`.
+Certifique-se de que o **backend** está rodando e acessível na URL configurada no `src/config.js`.
 
 Inicie o servidor de desenvolvimento:
 
@@ -53,24 +53,6 @@ yarn start
 ```
 
 Acesse o projeto em: [http://localhost:3000](http://localhost:3000)
-
----
-
-## 📦 Scripts Disponíveis
-
-- `yarn start`: Inicia o servidor de desenvolvimento.
-- `yarn build`: Gera uma versão otimizada do projeto para produção.
-- `yarn test`: Executa os testes configurados no projeto.
-
----
-
-## 🗂 Estrutura do Projeto
-
-O projeto segue a estrutura padrão de aplicações React criadas com **Create React App**. Os principais diretórios são:
-
-- `src/components`: Componentes reutilizáveis da aplicação.
-- `src/pages`: Páginas principais do sistema.
-- `src/services`: Configuração das chamadas à API.
 
 ---
 
