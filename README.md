@@ -34,10 +34,10 @@ Instale as dependências do projeto:
 yarn install
 ```
 
-Crie um arquivo `.env` na raiz do projeto e defina a URL da API do backend. Exemplo:
+Configure o arquivo `config.js` na pasta src do projeto e defina a URL da API do backend. Exemplo:
 
 ```env
-REACT_APP_API_URL=http://localhost:8080
+export const API_BASE_URL = 'http://localhost:8080';
 ```
 
 ---
